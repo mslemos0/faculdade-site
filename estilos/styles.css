@@ -9,11 +9,11 @@
 }
 
 body,html{
-    background-color: whitesmoke;
+    background-color: gray;
 }
 
 header{
-    background-color: gray;
+    background-color: rgb(72, 162, 247);
 }
 
 header > h1{
@@ -81,3 +81,12 @@ article > p {
     text-indent: 20px;
 
 }
+
+img{
+
+    width: 50%
+    
+
+
+}
+
