@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site</h1>
+        <i id= "burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu id="itens">
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overwatch.html">Overwatch</a></li>
+                <li><a href="diablo.html">Diablo 3</a></li>
+                <li><a href="wow.html">World of Warcraft</a></li>
+                <li><a href="form.html">Formulário</a></li>
+            </ul>
+
+            <ul>
+
+                
+                
+                </ul>
+        </menu>
+    </header>
+    <main>
+        
+       
+
+        <article>
+            <p>Overwatch é a quarta grande franquia da Blizzard em quase duas décadas, depois de Warcraft; Diablo e Starcraft. A ideia de Overwatch nasceu após o cancelamento de um multiplayer RPG chamado Titan. Em 2014, após sete anos de desenvolvimento uma parte da equipe trouxe o conceito de Overwatch com base no sucesso dos FPS (jogos de tiro em primeira pessoa) e na crescente popularidade dos MOBA (jogos de batalha em arena online multijogador), juntamente com a inspiração estética do design de Hearthstone: Heroes of Warcraft que resultou em um FPS baseado em heróis que realçou o trabalho em equipe. Alguns elementos de Overwatch tem recursos e conceitos do projeto Titan cancelado.<p>
+
+                <p>Overwatch foi revelado na BlizzCon 2014 em um estado totalmente jogável. O beta fechado iniciou em 27 de outubro de 2015 e terminou em 25 de abril de 2016, entre o qual parou temporariamente entre 10 de dezembro de 2015 a 9 de fevereiro de 2016. Sua versão beta aberta começou em 2 de maio de 2016 para compradores da pré-venda, e 4 de maio de 2016 para qualquer um e terminou em 10 de maio de 2016, embora fosse supostamente terminar em 9 de maio de 2016. O beta aberto atraiu mais de 9,7 milhões de jogadores e ficou amplamente antecipado.<p>
+                
+                <p>O lançamento oficial ocorreu em 24 de maio de 2016 para todos os países e consoles. O lançamento do jogo foi promovido com curtas de animados para apresentar a narrativa do jogo e cada um de seus personagens.<p>
+                
+                <p>Como Overwatch é um jogo online, os usuários do console exigem uma assinatura para PlayStation Plus ou Xbox Live Gold (dependendo do console) para jogar o jogo.<p>
+
+        </article>
+    </main>
+
+    <script> 
+        function mudouTamanho(){
+            if (window.innerWidth >= 992) {
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+            function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display ='block'
+            }
+
+           
+                
+
+
+        }
+    </script>
+</body>
+</html>
