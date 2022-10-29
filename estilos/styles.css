@@ -42,6 +42,7 @@ i#burguer:hover{
 
 menu{
     display:none;
+
 }
 
 menu > ul {
@@ -82,11 +83,16 @@ article > p {
 
 }
 
-img{
+p > img{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
 
-    width: 50%
+
     
 
 
-}
 
